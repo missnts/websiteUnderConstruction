@@ -129,11 +129,11 @@ section.text-side button {
     cursor: pointer;
 }
 
-section.text-side .notify-btn button {
+section.text-side button:first-child {
     transition: all 0.3s ease;
 }
 
-section.text-side .notify-btn button:hover {
+section.text-side button:hover:first-child {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #EE4DC6;
