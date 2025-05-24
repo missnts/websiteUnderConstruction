@@ -20,7 +20,7 @@ body.no-scroll {
     overflow: hidden;
 }
 
-.container {
+div.container {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -71,7 +71,7 @@ nav.menu-show ul {
     text-align: center;
 }
 
-nav.menu-show li {
+nav.menu-show ul li {
     margin-top: 50px;
     list-style: none;
     text-transform: uppercase;
@@ -129,14 +129,11 @@ section.text-side button {
     cursor: pointer;
 }
 
-section.text-side button:first-child {
-    transition: all 0.3s ease;
-}
-
-section.text-side button:hover:first-child {
+section.text-side button:hover {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #EE4DC6;
+    transition: all 0.3s ease;
 }
 
 form div.modal {
@@ -185,7 +182,7 @@ form div.modal-content input#email {
     padding-inline: 0.6rem;
 }
 
-form div.modal-content .checkbox-input {
+form div.modal-content div.checkbox-input {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -197,6 +194,10 @@ form div.modal-content .checkbox-input label {
 
 form div.modal-content button {
     background-color: #EE4DC6;
+}
+
+form div.modal-content button:hover {
+    border: 2px solid #EE4DC6;
 }
 
 section.text-side .icons {

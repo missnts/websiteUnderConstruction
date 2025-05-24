@@ -6,7 +6,7 @@
         overflow-y: hidden;
     }
 
-    .container {
+    div.container {
         align-items: center;
         padding-top: 3rem;
     }
@@ -36,7 +36,7 @@
         list-style: none;
     }
 
-    nav#nav-menu li {
+    nav#nav-menu ul li {
         text-transform: uppercase;
         cursor: pointer;
     }
