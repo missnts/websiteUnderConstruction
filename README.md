@@ -19,7 +19,7 @@
 
 <h3>🛠️ Technologies</h3>
 
-<img width="100" src="https://skillicons.dev/icons?i=html,css,vscode"/>
+<img width="100" src="https://skillicons.dev/icons?i=html,css,javascript,vscode"/>
 
 <h3>✅ Requirements</h3>
 
